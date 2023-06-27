@@ -1,8 +1,8 @@
 # renovate-reproduction
 
 ## About this repository
-- minimal reproduction for Renovate
-- discussions : https://github.com/renovatebot/renovate/discussions/22957#discussioncomment-6268367
+- minimal reproduction repository for this discussion
+    - https://github.com/renovatebot/renovate/discussions/22957#discussioncomment-6268367
 
 
 ## What this repository shows
@@ -15,7 +15,7 @@ When you run renovate with these settings, the repository without the `versionin
 
 So you can see that the default value of `versioningTemplate` is `semver`.
 
-## 再現する方法
+## How to reproduce
 1. Fork this repository
 2. Generate a personal access token  
    ![img](./z-generate-pat.png)
