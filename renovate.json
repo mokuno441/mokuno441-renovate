@@ -1,0 +1,19 @@
+{
+  "platform": "github",
+  "regexManagers": [
+    {
+      "versioningTemplate": "semver-coerced",
+      "depNameTemplate": "mokuno441/renovate-test-repo",
+      "matchStrings": ["renovate-test-repo_version=(?<currentValue>.*)"],
+      "fileMatch": ["^versions.ini"],
+      "datasourceTemplate": "github-releases"
+    },
+    {
+
+      "matchStrings": ["renovate-test-repo-2_version=(?<currentValue>.*)"],
+      "depNameTemplate": "mokuno441/renovate-test-repo-2",
+      "fileMatch": ["^versions.ini"],
+      "datasourceTemplate": "github-releases"
+    }
+  ]
+}
