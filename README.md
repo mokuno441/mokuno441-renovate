@@ -21,5 +21,5 @@ So you can see that the default value of `versioningTemplate` is `semver`.
    ![img](./z-generate-pat.png)
 3. In a docker-enabled environment, execute the following commands
    ```bash
-   docker run --rm -it renovate/renovate:35.89.1 --token={personal_access_token} {username}/mokuno441-renovate
+   docker run --rm -it renovate/renovate:latest --token={personal_access_token} {username}/mokuno441-renovate
    ```
